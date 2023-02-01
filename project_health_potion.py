@@ -13,7 +13,7 @@ health = 50
 difficulty = 2
 
 #random health number between 25 and 50 divided by the difficulty which is 2
-#int gets rid of the float number
+#int gets rid of the float numbers
 
 potion_health = int(random.randint(25,50) / difficulty)
 

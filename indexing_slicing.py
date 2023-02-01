@@ -1,4 +1,4 @@
-#String exercise for indeing and slicing python strings
+#String exercise for indeing and slicing python strings!
 
 message = input("Enter a message: ")
 

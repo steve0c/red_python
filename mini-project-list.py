@@ -4,7 +4,7 @@
 
 my_list = []
 
-#Populate the list using append or insert
+#Populate the list using append or insert!
 
 my_list.append("S3")
 my_list.append("EC2")

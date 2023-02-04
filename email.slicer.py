@@ -1,4 +1,4 @@
-# ger user email address 
+# get users email address 
 
 email = input("What is your email address?: ").strip()
 

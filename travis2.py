@@ -1,4 +1,4 @@
-#This is a project to check if a name is on a list
+#Thisx is a project to check if a name is on a list
 
 known_users = ["Alice", "Bob", "Claire", "Dan", "Emma", "Fred", "Georgie", "Harry"]
 

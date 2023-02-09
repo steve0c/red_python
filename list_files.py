@@ -2,24 +2,26 @@
 
 import os
 
+files = [[file for file in os.listdir(os.getcwd)]]
+
 
 
 #path of the files
-path = ("/home/ec2-user/environment/red_python")
+#path = ("/home/ec2-user/environment/red_python")
 
-###list_of_files = {}
+##list_of_files = {}
 
 #dir_list = int(sorted(os.path.getsize(path)))
-dir_list = list(os.listdir(path))
+#dir_list = list(os.listdir(path))
+#files = pathlib.Path.iterdir()
+#the_dict = dict()
 
-the_dict = dict()
+#for something in dir_list:
+    #theStats = os.stat(1)
+    #thedict [1] = theStats
 
-for something in dir_list:
-    theStats = os.stat(1)
-    thedict [1] = theStats
-
-for item in thedict:
-    print("The File: {:30s} The Size: {:d} Bytes".format(item,thedict[item].st_size))
+#for item in thedict:
+    #print("The File: {:30s} The Size: {:d} Bytes".format(item,thedict[item].st_size))
 
 
 

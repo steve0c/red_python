@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-
+#project week 13
 import os
 
 
-
 directory = os.getcwd()
+file_attr_list = []
 
 for file_name in os.listdir(directory):
     
@@ -15,6 +15,7 @@ for file_name in os.listdir(directory):
         "size": file_size,
 }
 
+file_attr_list.append(file_attr)
 
 print(file_attr)
 

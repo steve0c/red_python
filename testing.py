@@ -16,4 +16,4 @@ for file_name in os.listdir(directory):
 }
 
     
-    print(file_attr)
+    print(file_attr) 

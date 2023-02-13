@@ -18,6 +18,3 @@ for file_name in os.listdir(directory):
     file_attr_list.append(file_attr)
 
     print(file_attr)
-
-
-

@@ -16,8 +16,8 @@
 #greet("John", "Smith")
 
 def hello(first_name):
-    print(f"hi {first_name}")
-    print("Nice to meet you!")
+    print(f"Hi {first_name}")
+    print("nice to meet you!")
     
     
 hello("Stephen")
